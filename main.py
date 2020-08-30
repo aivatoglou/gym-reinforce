@@ -70,7 +70,7 @@ fig.suptitle('Results.')
 
 counter = Counter(actions)
 axs[0].bar(counter.keys(), counter.values())
-axs[0].set_title('Actions prefered')
+axs[0].set_title('Actions preferred')
 
 axs[1].plot(scores)
 axs[1].set_title('Reward-Episodes')
